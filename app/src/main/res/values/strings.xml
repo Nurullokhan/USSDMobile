@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">USSDMobile</string>
+
+    <string name="balans">Balans</string>
+
+    <string name="uzb">UZB</string>
+
+    <string name="rus">RUS</string>
+
+    <string name="internet">INTERNET</string>
+
+    <string name="tariflar">Tariflar</string>
+
+    <string name="sms">SMS</string>
+
+    <string name="daqiqa">Daqiqa</string>
+
+    <string name="hello_blank_fragment">Fragment Home</string>
 </resources>
