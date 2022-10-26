@@ -14,4 +14,6 @@
     <string name="sms">SMS</string>
 
     <string name="daqiqa">Daqiqa</string>
+
+    <string name="hello_blank_fragment">Fragment Home</string>
 </resources>
