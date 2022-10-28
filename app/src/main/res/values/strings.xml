@@ -1,4 +1,7 @@
 <resources>
+
+<!--BEELINE-->
+
     <string name="app_name">USSDMobile</string>
 
     <string name="balans">Balans</string>
@@ -13,7 +16,317 @@
 
     <string name="sms">SMS</string>
 
-    <string name="daqiqa">Daqiqa</string>
+    <string name="daqiqa">Daqiqalar</string>
 
-    <string name="hello_blank_fragment">Fragment Home</string>
+    <!-- Beeline MB lar-->
+
+    <string name="internet_mb">INTERNET</string>
+
+    <string name="birkunga">1 kunga</string>
+
+    <string name="yettikunga">7 kunga</string>
+
+    <string name="ottizkunga">30 kunga</string>
+
+    <!--1 kunga-->
+
+<!-- 100 mb uchun   -->
+    <string name="yuzMb">100 MB</string>
+
+    <string name="ulanishNarxi1">2000 so\'m ulanish narxi</string>
+
+    <string name="yonalishlarUcun1">Barcha yo\'nalishlaar uchun</string>
+
+
+<!--   200 mb uchun -->
+
+    <string name="ikkiyuzMb">200 MB</string>
+
+    <string name="ulanishNarxi2">3000 so\'m ulanish narxi</string>
+
+    <string name="yonalishlarUchun2">Barcha yo\'nalishlar uchun</string>
+
+<!--  500 mb uchun  -->
+    <string name="beshyuzMb">500 MB</string>
+
+    <string name="ulanishNarxi3">5000 so\'m ulanish narxi</string>
+
+    <string name="yonalishlarUchun3">Barcha yo\'nalishlar uchun</string>
+
+<!--  4gb uchun  -->
+    <string name="tortGb">4 GB</string>
+
+    <string name="ulanishNarxi4">10 000 so\'m ulanish narxi</string>
+
+    <string name="yonalishlarUchun4">Barcha yo\'nalishlar uchun</string>
+
+<!--7 kunga-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB">3000 MB</string>
+
+    <string name="haftatolov1">18 000 so\'m ulanish narxi</string>
+
+    <string name="yonalishGb1">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb">5 GB</string>
+
+    <string name="haftatolov2">28 000 so\'m ulanish narxi</string>
+
+    <string name="yonalishGb2">Barcha yo\'nalishlar uchun</string>
+
+    <!-- 7 GB uchun  -->
+    <string name="yettiGB">7 GB</string>
+
+    <string name="haftatolov3">30 000 so\'m</string>
+
+    <string name="yonalishGb3">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB">10 GB</string>
+
+    <string name="haftaTolov4">50 000 so\'m ulanish narxi</string>
+
+    <string name="yonalishGb4">Barcha yo\'nalishlar uchun</string>
+
+
+             <!--30 kunga-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1">3000 MB</string>
+
+    <string name="oylik_tolov1">18 000 so\'m ulanish narxi</string>
+
+    <string name="yonalish_oylik1">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2">5 GB</string>
+
+    <string name="oylik_tolov2">28 000 so\'m ulanish narxi</string>
+
+    <string name="yonalish_oylik2">Barcha yo\'nalishlar uchun</string>
+
+      <!-- 7 GB uchun  -->
+
+    <string name="yettiGB_oyiga3">7 GB</string>
+
+    <string name="oylik_tolov3">30 000 so\'m</string>
+
+    <string name="yonalish_oylik3">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4">10 GB</string>
+
+    <string name="oylik_tolov4">50 000 so\'m ulanish narxi</string>
+
+    <string name="ypnalish_oylik">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Beeline Tariflar-->
+
+    <string name="tariflarr">TARIFLAR</string>
+
+    <string name="yangi">Yangi</string>
+
+    <string name="status">Status</string>
+
+    <string name="oddiy">Oddiy</string>
+
+
+<!-- Yangi tariflar uchun -->
+
+<!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1">Hammasi</string>
+
+    <string name="zor_1">ZO\'R 1</string>
+
+    <string name="tolov_zor1">20 000 so\'m oylik abonent to\'lovi</string>
+    
+    <string name="batafsil_zor1">Batafsil</string>
+
+<!--Zo'r 2-->
+
+    <string name="hammasi_zor2">Hammasi</string>
+
+    <string name="zor_2">ZO\'R 2</string>
+
+    <string name="tolov_zor2">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2">Batafsil</string>
+
+<!--Zo'r 3-->
+
+    <string name="hammasi_zor3">Hammasi</string>
+
+    <string name="zor_3">ZO\'R 3</string>
+
+    <string name="tolov_zor3">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3"> Batafsil </string>
+
+
+<!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4">Hammasi</string>
+
+    <string name="zor_4">ZO\'R 4</string>
+
+    <string name="tolov_zor4">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4">Batafsil</string>
+
+<!-- Status -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status">Hammasi</string>
+
+    <string name="zor_1_status">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_status">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status">Hammasi</string>
+
+    <string name="zor_2_status">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_status">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status">Hammasi</string>
+
+    <string name="zor_3_status">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_status"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status">Hammasi</string>
+
+    <string name="zor_4_status">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_status">Batafsil</string>
+
+<!--  Oddiy  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy">Hammasi</string>
+
+    <string name="zor_1_oddiy">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_oddiy">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy">Hammasi</string>
+
+    <string name="zor_2_oddiy">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_oddiy">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy">Hammasi</string>
+
+    <string name="zor_3_oddiy">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_oddiy"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy">Hammasi</string>
+
+    <string name="zor_4_oddiy">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_oddiy">Batafsil</string>
+    
+<!-- Beeline SMSlar -->
+
+    <string name="smslar">SMS</string>
+
+<!--SMS 1-->
+
+    <string name="sms_1">100 SMS</string>
+    
+    <string name="sms_narxi1">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_1">Batafsil</string>
+
+<!--SMS 2-->
+
+    <string name="sms_2">100 SMS</string>
+
+    <string name="sms_narxi2">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_2">Batafsil</string>
+     
+    <!--SMS 3-->
+
+    <string name="sms_3">100 SMS</string>
+
+    <string name="sms_narxi3">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_3">Batafsil</string>
+
+<!-- BEELINE DAQIQALAR -->
+
+<!--Kunlik daqiqalar -->
+
+     <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa">50 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi">Daqiqa narxi: 1 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi">Barcha yo\'nalishlar uchun</string>
+
+<!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_100">3 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_100">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_120">5 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_120">Barcha yo\'nalishlar uchun</string>
+
+<!-- Uzmobile -->
+
+    <string name=""
+
+
 </resources>
