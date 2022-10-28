@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.example.ussdmobile.R
+import com.example.ussdmobile.databinding.FragmentHomeBinding
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -23,12 +25,23 @@ class FragmentHome : Fragment() {
         }
     }
 
+    private lateinit var binding: FragmentHomeBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+    ): View {
+        binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
+
+        binding.uz.setOnClickListener {
+            Toast.makeText(requireContext(), "Uzb", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.rus.setOnClickListener {
+            Toast.makeText(requireContext(), "Rus", Toast.LENGTH_SHORT).show()
+        }
+
+        return binding.root
     }
 
     companion object {

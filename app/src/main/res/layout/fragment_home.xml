@@ -1,14 +1,408 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7D145"
     tools:context="com.example.ussdmobile.fragments.FragmentHome">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <!--    <ImageView
+            app:layout_constraintHorizontal_bias="0.05"
+            android:layout_marginTop="16dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_menu"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
 
-</FrameLayout>
+    <FrameLayout
+        android:id="@+id/logoFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:elevation="@null"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:translationZ="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="292dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:elevation="@null"
+            app:cardBackgroundColor="#D9D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/beeline_logo"
+            android:translationZ="1dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="Beeline"
+            android:textColor="#333333"
+            android:textSize="32sp"
+            android:textStyle="bold|normal"
+            android:translationZ="1dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoFrame"
+        app:layout_constraintVertical_bias="0.1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:elevation="@null"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:translationZ="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="162dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:elevation="@null"
+            app:cardBackgroundColor="#D9D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/ic_balance"
+            android:translationZ="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="16dp"
+            android:text="Balans"
+            android:textColor="#333333"
+            android:textSize="15sp"
+            android:textStyle="bold|normal"
+            android:translationZ="1dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoFrame"
+        app:layout_constraintVertical_bias="0.1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="@null"
+            android:translationZ="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:translationZ="1dp">
+
+                <TextView
+                    android:id="@+id/uz"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="UZ"
+                    android:textColor="#333333"
+                    android:textSize="15sp"
+                    android:textStyle="bold|normal" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="#333333" />
+
+                <TextView
+                    android:id="@+id/rus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="RU"
+                    android:textColor="#333333"
+                    android:textSize="15sp"
+                    android:textStyle="bold|normal" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="142dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:elevation="@null"
+            app:cardBackgroundColor="#D9D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/sms_minute"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tariff"
+        app:layout_constraintTop_toBottomOf="@+id/balance">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="@null"
+            android:translationZ="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginBottom="14dp"
+                android:src="@drawable/ic_internet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="18dp"
+                android:text="Internet"
+                android:textColor="#333333"
+                android:textSize="13sp"
+                android:textStyle="bold|normal" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:elevation="@null"
+            app:cardBackgroundColor="#D9D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/tariff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/internet"
+        app:layout_constraintLeft_toRightOf="@id/internet"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/internet">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:elevation="@null"
+            android:translationZ="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginBottom="14dp"
+                android:src="@drawable/ic_tariff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="18dp"
+                android:text="Tarif"
+                android:textColor="#333333"
+                android:textSize="13sp"
+                android:textStyle="bold|normal" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:elevation="@null"
+            app:cardBackgroundColor="#D9D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sms_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/ussdCode"
+        app:layout_constraintTop_toBottomOf="@+id/internet">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="@null"
+            android:translationZ="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginBottom="14dp"
+                android:src="@drawable/call" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="18dp"
+                android:text="SMS va Daqiqa"
+                android:textColor="#333333"
+                android:textSize="13sp"
+                android:textStyle="bold|normal" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:elevation="@null"
+            app:cardBackgroundColor="#D9D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/ussdCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/sms_minute"
+        app:layout_constraintLeft_toRightOf="@id/sms_minute"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/sms_minute">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:elevation="@null"
+            android:translationZ="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginBottom="14dp"
+                android:src="@drawable/ic_ussd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="18dp"
+                android:text="USSD kod"
+                android:textColor="#333333"
+                android:textSize="13sp"
+                android:textStyle="bold|normal" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:elevation="@null"
+            app:cardBackgroundColor="#D9D9D9"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
