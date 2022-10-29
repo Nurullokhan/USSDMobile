@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F7D145"
+    android:background="@color/sariq"
     tools:context="com.example.ussdmobile.fragments.FragmentHome">
 
     <!--    <ImageView
@@ -48,7 +48,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:elevation="@null"
-            app:cardBackgroundColor="#D9D9D9"
+            app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
             app:cardMaxElevation="@null" />
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_vertical"
             android:layout_marginStart="16dp"
-            android:text="Beeline"
+            android:text="@string/beeline"
             android:textColor="#333333"
             android:textSize="32sp"
             android:textStyle="bold|normal"
@@ -105,7 +105,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:elevation="@null"
-            app:cardBackgroundColor="#D9D9D9"
+            app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
             app:cardMaxElevation="@null" />
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center"
             android:layout_marginStart="16dp"
-            android:text="Balans"
+            android:text="@string/balans"
             android:textColor="#333333"
             android:textSize="15sp"
             android:textStyle="bold|normal"
@@ -166,7 +166,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="UZ"
+                    android:text="@string/uzb"
                     android:textColor="#333333"
                     android:textSize="15sp"
                     android:textStyle="bold|normal" />
@@ -184,7 +184,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="RU"
+                    android:text="@string/rus"
                     android:textColor="#333333"
                     android:textSize="15sp"
                     android:textStyle="bold|normal" />
@@ -198,7 +198,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
             android:elevation="@null"
-            app:cardBackgroundColor="#D9D9D9"
+            app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
             app:cardMaxElevation="@null" />
@@ -235,7 +235,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|bottom"
                 android:layout_marginBottom="18dp"
-                android:text="Internet"
+                android:text="@string/internet"
                 android:textColor="#333333"
                 android:textSize="13sp"
                 android:textStyle="bold|normal" />
@@ -248,7 +248,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:elevation="@null"
-            app:cardBackgroundColor="#D9D9D9"
+            app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
             app:cardMaxElevation="@null" />
@@ -286,7 +286,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|bottom"
                 android:layout_marginBottom="18dp"
-                android:text="Tarif"
+                android:text="@string/tariflar"
                 android:textColor="#333333"
                 android:textSize="13sp"
                 android:textStyle="bold|normal" />
@@ -298,7 +298,7 @@
             android:layout_height="120dp"
             android:layout_marginTop="5dp"
             android:elevation="@null"
-            app:cardBackgroundColor="#D9D9D9"
+            app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
             app:cardMaxElevation="@null" />
@@ -335,7 +335,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|bottom"
                 android:layout_marginBottom="18dp"
-                android:text="SMS va Daqiqa"
+                android:text="@string/sms_daqiqalar"
                 android:textColor="#333333"
                 android:textSize="13sp"
                 android:textStyle="bold|normal" />
@@ -348,7 +348,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:elevation="@null"
-            app:cardBackgroundColor="#D9D9D9"
+            app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
             app:cardMaxElevation="@null" />
@@ -386,7 +386,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|bottom"
                 android:layout_marginBottom="18dp"
-                android:text="USSD kod"
+                android:text="@string/ussd_kod"
                 android:textColor="#333333"
                 android:textSize="13sp"
                 android:textStyle="bold|normal" />
@@ -398,7 +398,7 @@
             android:layout_height="120dp"
             android:layout_marginTop="5dp"
             android:elevation="@null"
-            app:cardBackgroundColor="#D9D9D9"
+            app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
             app:cardMaxElevation="@null" />

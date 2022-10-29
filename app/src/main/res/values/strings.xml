@@ -4,6 +4,8 @@
 
     <string name="app_name">USSDMobile</string>
 
+    <string name="beeline">Beeline</string>
+
     <string name="balans">Balans</string>
 
     <string name="uzb">UZB</string>
@@ -21,7 +23,6 @@
 
     <!-- Beeline MB lar-->
 
-    <string name="internet_mb">INTERNET</string>
 
     <string name="birkunga">1 kunga</string>
 
