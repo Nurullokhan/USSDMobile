@@ -24,4 +24,17 @@
     <color name="menu">#333333</color>
 
     <color name="batafsil_color">#F2C94C</color>
+
+    <!--Uzmobile-->
+    
+    <color name="blue">#01B4FF</color>
+    
+    <!--MobiUz-->
+    
+    <color name="qizil">#E31E24</color>
+
+    <!--Ucell-->
+    
+    <color name="binafsha">#6A2383</color>
+
 </resources>
