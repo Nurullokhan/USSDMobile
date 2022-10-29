@@ -1,6 +1,6 @@
 <resources>
 
-<!--BEELINE-->
+    <!--BEELINE-->
 
     <string name="app_name">USSDMobile</string>
 
@@ -14,9 +14,10 @@
 
     <string name="tariflar">Tariflar</string>
 
-    <string name="sms">SMS</string>
+    <string name="sms_daqiqalar">SMS va DAQIQA</string>
 
-    <string name="daqiqa">Daqiqalar</string>
+    <string name="ussd_kod">USSD kod</string>
+
 
     <!-- Beeline MB lar-->
 
@@ -30,43 +31,43 @@
 
     <!--1 kunga-->
 
-<!-- 100 mb uchun   -->
+    <!-- 100 mb uchun   -->
     <string name="yuzMb">100 MB</string>
 
-    <string name="ulanishNarxi1">2000 so\'m ulanish narxi</string>
+    <string name="ulanishNarxi1">Ulanish narxi: 2 000 so\'m</string>
 
     <string name="yonalishlarUcun1">Barcha yo\'nalishlaar uchun</string>
 
 
-<!--   200 mb uchun -->
+    <!--   200 mb uchun -->
 
     <string name="ikkiyuzMb">200 MB</string>
 
-    <string name="ulanishNarxi2">3000 so\'m ulanish narxi</string>
+    <string name="ulanishNarxi2">Ulanish narxi: 5 000 so\'m</string>
 
     <string name="yonalishlarUchun2">Barcha yo\'nalishlar uchun</string>
 
-<!--  500 mb uchun  -->
+    <!--  500 mb uchun  -->
     <string name="beshyuzMb">500 MB</string>
 
-    <string name="ulanishNarxi3">5000 so\'m ulanish narxi</string>
+    <string name="ulanishNarxi3">Ulanish narxi: 5000 so\'m </string>
 
     <string name="yonalishlarUchun3">Barcha yo\'nalishlar uchun</string>
 
-<!--  4gb uchun  -->
+    <!--  4gb uchun  -->
     <string name="tortGb">4 GB</string>
 
-    <string name="ulanishNarxi4">10 000 so\'m ulanish narxi</string>
+    <string name="ulanishNarxi4">Ulanish narxi: 10 000 so\'m </string>
 
     <string name="yonalishlarUchun4">Barcha yo\'nalishlar uchun</string>
 
-<!--7 kunga-->
+    <!--7 kunga-->
 
 
     <!-- 3 GB uchun  -->
     <string name="uchGB">3000 MB</string>
 
-    <string name="haftatolov1">18 000 so\'m ulanish narxi</string>
+    <string name="haftatolov1">Ulanish narxi: 18 000 so\'m</string>
 
     <string name="yonalishGb1">Barcha yo\'nalishlaar uchun</string>
 
@@ -75,31 +76,31 @@
 
     <string name="beshGb">5 GB</string>
 
-    <string name="haftatolov2">28 000 so\'m ulanish narxi</string>
+    <string name="haftatolov2">Ulanish narxi: 28 000 so\'m</string>
 
     <string name="yonalishGb2">Barcha yo\'nalishlar uchun</string>
 
     <!-- 7 GB uchun  -->
     <string name="yettiGB">7 GB</string>
 
-    <string name="haftatolov3">30 000 so\'m</string>
+    <string name="haftatolov3">Ulanish narxi: 30 000 so\'m</string>
 
     <string name="yonalishGb3">Barcha yo\'nalishlar uchun</string>
 
     <!--  10gb uchun  -->
     <string name="on_GB">10 GB</string>
 
-    <string name="haftaTolov4">50 000 so\'m ulanish narxi</string>
+    <string name="haftaTolov4">Ulanish narxi: 50 000 so\'m</string>
 
     <string name="yonalishGb4">Barcha yo\'nalishlar uchun</string>
 
 
-             <!--30 kunga-->
+    <!--30 kunga-->
 
     <!-- 3 GB uchun -->
     <string name="uchGB_oyiga1">3000 MB</string>
 
-    <string name="oylik_tolov1">18 000 so\'m ulanish narxi</string>
+    <string name="oylik_tolov1">Ulanish narxi: 18 000 so\'m</string>
 
     <string name="yonalish_oylik1">Barcha yo\'nalishlaar uchun</string>
 
@@ -108,22 +109,22 @@
 
     <string name="beshGb_oyiga2">5 GB</string>
 
-    <string name="oylik_tolov2">28 000 so\'m ulanish narxi</string>
+    <string name="oylik_tolov2">Ulanish narxi: 28 000 so\'m</string>
 
     <string name="yonalish_oylik2">Barcha yo\'nalishlar uchun</string>
 
-      <!-- 7 GB uchun  -->
+    <!-- 7 GB uchun  -->
 
     <string name="yettiGB_oyiga3">7 GB</string>
 
-    <string name="oylik_tolov3">30 000 so\'m</string>
+    <string name="oylik_tolov3">Ulanish narxi: 30 000 so\'m</string>
 
     <string name="yonalish_oylik3">Barcha yo\'nalishlar uchun</string>
 
     <!--  10gb uchun  -->
     <string name="onGB_oyiga4">10 GB</string>
 
-    <string name="oylik_tolov4">50 000 so\'m ulanish narxi</string>
+    <string name="oylik_tolov4">Ulanish narxi: 50 000 so\'m</string>
 
     <string name="ypnalish_oylik">Barcha yo\'nalishlar uchun</string>
 
@@ -138,19 +139,19 @@
     <string name="oddiy">Oddiy</string>
 
 
-<!-- Yangi tariflar uchun -->
+    <!-- Yangi tariflar uchun -->
 
-<!-- Zo'r 1 -->
+    <!-- Zo'r 1 -->
 
     <string name="hammasi_zor1">Hammasi</string>
 
     <string name="zor_1">ZO\'R 1</string>
 
-    <string name="tolov_zor1">20 000 so\'m oylik abonent to\'lovi</string>
-    
+    <string name="tolov_zor1">20 000 so\'m Oylik abonent to\'lovi</string>
+
     <string name="batafsil_zor1">Batafsil</string>
 
-<!--Zo'r 2-->
+    <!--Zo'r 2-->
 
     <string name="hammasi_zor2">Hammasi</string>
 
@@ -160,7 +161,7 @@
 
     <string name="batafsil_zor2">Batafsil</string>
 
-<!--Zo'r 3-->
+    <!--Zo'r 3-->
 
     <string name="hammasi_zor3">Hammasi</string>
 
@@ -171,7 +172,7 @@
     <string name="batafsil_zor3"> Batafsil </string>
 
 
-<!-- Zo'r 4 -->
+    <!-- Zo'r 4 -->
 
     <string name="hammasi_zor4">Hammasi</string>
 
@@ -181,7 +182,7 @@
 
     <string name="batafsil_zor4">Batafsil</string>
 
-<!-- Status -->
+    <!-- Status -->
 
 
     <!-- Zo'r 1 -->
@@ -225,7 +226,7 @@
 
     <string name="batafsil_zor4_status">Batafsil</string>
 
-<!--  Oddiy  -->
+    <!--  Oddiy  -->
 
 
     <!-- Zo'r 1 -->
@@ -268,27 +269,27 @@
     <string name="tolov_zor4_oddiy">50 000 so\'m oylik abonent to'lovi</string>
 
     <string name="batafsil_zor4_oddiy">Batafsil</string>
-    
-<!-- Beeline SMSlar -->
+
+    <!-- Beeline SMS va daqiqalar -->
 
     <string name="smslar">SMS</string>
 
-<!--SMS 1-->
+    <!--SMS 1-->
 
     <string name="sms_1">100 SMS</string>
-    
+
     <string name="sms_narxi1">Ulanish narxi: 5048.5 so\'m</string>
 
     <string name="batafsil_1">Batafsil</string>
 
-<!--SMS 2-->
+    <!--SMS 2-->
 
     <string name="sms_2">100 SMS</string>
 
     <string name="sms_narxi2">Ulanish narxi: 5048.5 so\'m</string>
 
     <string name="batafsil_2">Batafsil</string>
-     
+
     <!--SMS 3-->
 
     <string name="sms_3">100 SMS</string>
@@ -297,18 +298,17 @@
 
     <string name="batafsil_3">Batafsil</string>
 
-<!-- BEELINE DAQIQALAR -->
 
-<!--Kunlik daqiqalar -->
+    <!--Kunlik daqiqalar -->
 
-     <!--Kunlik 50 daqiqa-->
+    <!--Kunlik 50 daqiqa-->
     <string name="kunlik_50daqiqa">50 Daqiqa</string>
 
     <string name="kunlik_daqiqa_narxi">Daqiqa narxi: 1 000 so\'m</string>
 
     <string name="daqiqa_yonalishi">Barcha yo\'nalishlar uchun</string>
 
-<!-- Kunlik 100 daqiqa -->
+    <!-- Kunlik 100 daqiqa -->
 
     <string name="kunlik_100daqiqa">100 Daqiqa</string>
 
@@ -324,9 +324,980 @@
 
     <string name="daqiqa_yonalishi_120">Barcha yo\'nalishlar uchun</string>
 
-<!-- Uzmobile -->
 
-    <string name=""
+<!--Uzmobile-->
+
+    <string name="app_name_uzmobile">USSDMobile</string>
+
+    <string name="balans_uzmobile">Balans</string>
+
+    <string name="uzb_uzmobile">UZB</string>
+
+    <string name="rus_uzmobile">RUS</string>
+
+    <string name="internet_uzmobile">INTERNET</string>
+
+    <string name="tariflar_uzmobile">Tariflar</string>
+
+    <string name="sms_daqiqalar_uzmobile">SMS va DAQIQA</string>
+
+    <string name="ussd_kod_uzmobile">USSD kod</string>
+
+
+    <!-- uzmobile MB lar-->
+
+    <string name="internet_mb_uzmobile">INTERNET</string>
+
+    <string name="birkunga_uzmobile">1 kunga</string>
+
+    <string name="yettikunga_uzmobile">7 kunga</string>
+
+    <string name="ottizkunga_uzmobile">30 kunga</string>
+
+    <!--1 kunga-->
+
+    <!-- 100 mb uchun   -->
+    <string name="yuzMb_uzmobile">100 MB</string>
+
+    <string name="ulanishNarxi1_uzmobile">Ulanish narxi: 2 000 so\'m</string>
+
+    <string name="yonalishlarUcun1_uzmobile">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   200 mb uchun -->
+
+    <string name="ikkiyuzMb_uzmobile">200 MB</string>
+
+    <string name="ulanishNarxi2_uzmobile">Ulanish narxi: 5 000 so\'m</string>
+
+    <string name="yonalishlarUchun2_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!--  500 mb uchun  -->
+    <string name="beshyuzMb_uzmobile">500 MB</string>
+
+    <string name="ulanishNarxi3_uzmobile">Ulanish narxi: 5000 so\'m </string>
+
+    <string name="yonalishlarUchun3_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!--  4gb uchun  -->
+    <string name="tortGb_uzmobile">4 GB</string>
+
+    <string name="ulanishNarxi4_uzmobile">Ulanish narxi: 10 000 so\'m </string>
+
+    <string name="yonalishlarUchun4_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!--7 kunga-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB_uzmobile">3000 MB</string>
+
+    <string name="haftatolov1_uzmobile">Ulanish narxi: 18 000 so\'m</string>
+
+    <string name="yonalishGb1_uzmobile">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_uzmobile">5 GB</string>
+
+    <string name="haftatolov2_uzmobile">Ulanish narxi: 28 000 so\'m</string>
+
+    <string name="yonalishGb2v">Barcha yo\'nalishlar uchun</string>
+
+    <!-- 7 GB uchun  -->
+    <string name="yettiGB_uzmobile">7 GB</string>
+
+    <string name="haftatolov3_uzmobile">Ulanish narxi: 30 000 so\'m</string>
+
+    <string name="yonalishGb3_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB_uzmobile">10 GB</string>
+
+    <string name="haftaTolov4_uzmobile">Ulanish narxi: 50 000 so\'m</string>
+
+    <string name="yonalishGb4_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+
+    <!--30 kunga-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1_uzmobile">3000 MB</string>
+
+    <string name="oylik_tolov1_uzmobile">Ulanish narxi: 18 000 so\'m</string>
+
+    <string name="yonalish_oylik_uzmobile1">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2_uzmobile">5 GB</string>
+
+    <string name="oylik_tolov2_uzmobile">Ulanish narxi: 28 000 so\'m</string>
+
+    <string name="yonalish_oylik2_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!-- 7 GB uchun  -->
+
+    <string name="yettiGB_oyiga3_uzmobile">7 GB</string>
+
+    <string name="oylik_tolov3_uzmobile">Ulanish narxi: 30 000 so\'m</string>
+
+    <string name="yonalish_oylik3_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4_uzmobile">10 GB</string>
+
+    <string name="oylik_tolov4_uzmobile">Ulanish narxi: 50 000 so\'m</string>
+
+    <string name="ypnalish_oylik_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Uzmobile Tariflar-->
+
+    <string name="tariflarr_uzmobile">TARIFLAR</string>
+
+    <string name="yangi_uzmobile">Yangi</string>
+
+    <string name="status_uzmobile">Status</string>
+
+    <string name="oddiy_uzmobile">Oddiy</string>
+
+
+    <!-- Yangi tariflar uchun -->
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_uzmobile">Hammasi</string>
+
+    <string name="zor_1_uzmobile">ZO\'R 1</string>
+
+    <string name="tolov_zor1_uzmobile">20 000 so\'m Oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_uzmobile">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_uzmobile">Hammasi</string>
+
+    <string name="zor_2_uzmobile">ZO\'R 2</string>
+
+    <string name="tolov_zor2_uzmobile">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_uzmobile">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_uzmobile">Hammasi</string>
+
+    <string name="zor_3_uzmobile">ZO\'R 3</string>
+
+    <string name="tolov_zor3_uzmobile">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_uzmobile"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_uzmobile">Hammasi</string>
+
+    <string name="zor_4_uzmobile">ZO\'R 4</string>
+
+    <string name="tolov_zor4_uzmobile">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_uzmobile">Batafsil</string>
+
+    <!-- Status -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status_uzmobile">Hammasi</string>
+
+    <string name="zor_1_status_uzmobile">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status_uzmobile">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_status_uzmobile">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status_uzmobile">Hammasi</string>
+
+    <string name="zor_2_status_uzmobile">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status_uzmobile">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_status_uzmobile">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status_uzmobile">Hammasi</string>
+
+    <string name="zor_3_status_uzmobile">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status_uzmobile">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_status_uzmobile"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status_uzmobile">Hammasi</string>
+
+    <string name="zor_4_status_uzmobile">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status_uzmobile">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_status_uzmobile">Batafsil</string>
+
+    <!--  Oddiy  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy_uzmobile">Hammasi</string>
+
+    <string name="zor_1_oddiy_uzmobile">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy_uzmobile">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_oddiy_uzmobile">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy_uzmobile">Hammasi</string>
+
+    <string name="zor_2_oddiy_uzmobile">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy_uzmobile">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_oddiy_uzmobile">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy_uzmobile">Hammasi</string>
+
+    <string name="zor_3_oddiy_uzmobile">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy_uzmobile">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_oddiy_uzmobile"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy_uzmobile">Hammasi</string>
+
+    <string name="zor_4_oddiy_uzmobile">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy_uzmobile">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_oddiy_uzmobile">Batafsil</string>
+
+    <!-- Uzmobile SMS va daqiqalar -->
+
+    <string name="smslar_uzmobile">SMS</string>
+
+    <!--SMS 1-->
+
+    <string name="sms_1_uzmobile">100 SMS</string>
+
+    <string name="sms_narxi1_uzmobile">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_1_uzmobile">Batafsil</string>
+
+    <!--SMS 2-->
+
+    <string name="sms_2_uzmobile">100 SMS</string>
+
+    <string name="sms_narxi2_uzmobile">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_2_uzmobile">Batafsil</string>
+
+    <!--SMS 3-->
+
+    <string name="sms_3_uzmobile">100 SMS</string>
+
+    <string name="sms_narxi3_uzmobile">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_3_uzmobile">Batafsil</string>
+
+
+    <!-- uzmobile Kunlik daqiqalar -->
+
+    <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa_uzmobile">50 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_uzmobile">Daqiqa narxi: 1 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa_uzmobile">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_100_uzmobile">3 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_100_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa_uzmobile">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_120_uzmobile">5 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_120_uzmobile">Barcha yo\'nalishlar uchun</string>
+
+
+<!--MobiUz-->
+
+
+    <string name="app_name_mobiUz">USSDMobile</string>
+
+    <string name="balans_mobiUz">Balans</string>
+
+    <string name="uzb_mobiUz">UZB</string>
+
+    <string name="rus_mobiUz">RUS</string>
+
+    <string name="internet_mobiUz">INTERNET</string>
+
+    <string name="tariflar_mobiUz">Tariflar</string>
+
+    <string name="sms_daqiqalar_mobiUz">SMS va DAQIQA</string>
+
+    <string name="ussd_kod_mobiUz">USSD kod</string>
+
+
+    <!-- MobiUz MB lar-->
+
+    <string name="internet_mb_mobiUz">INTERNET</string>
+
+    <string name="birkunga_mobiUz">1 kunga</string>
+
+    <string name="yettikunga_mobiUz_mobiUz">7 kunga</string>
+
+    <string name="ottizkunga_mobiUz">30 kunga</string>
+
+    <!--1 kunga-->
+
+    <!-- 100 mb uchun   -->
+    <string name="yuzMb_mobiUz">100 MB</string>
+
+    <string name="ulanishNarxi1_mobiUz">Ulanish narxi: 2 000 so\'m</string>
+
+    <string name="yonalishlarUcun1_mobiUz_mobiUz">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   200 mb uchun -->
+
+    <string name="ikkiyuzMb_mobiUz">200 MB</string>
+
+    <string name="ulanishNarxi2_mobiUz">Ulanish narxi: 5 000 so\'m</string>
+
+    <string name="yonalishlarUchun2_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!--  500 mb uchun  -->
+    <string name="beshyuzMb_mobiUz">500 MB</string>
+
+    <string name="ulanishNarxi3_mobiUz">Ulanish narxi: 5000 so\'m </string>
+
+    <string name="yonalishlarUchun3_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!--  4gb uchun  -->
+    <string name="tortGb_mobiUz">4 GB</string>
+
+    <string name="ulanishNarxi4_mobiUz">Ulanish narxi: 10 000 so\'m </string>
+
+    <string name="yonalishlarUchun4_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!--7 kunga-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB_mobiUz">3000 MB</string>
+
+    <string name="haftatolov1_mobiUz">Ulanish narxi: 18 000 so\'m</string>
+
+    <string name="yonalishGb1_mobiUz">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_mobiUz">5 GB</string>
+
+    <string name="haftatolov2_mobiUz">Ulanish narxi: 28 000 so\'m</string>
+
+    <string name="yonalishGb2_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!-- 7 GB uchun  -->
+    <string name="yettiGB_mobiUz">7 GB</string>
+
+    <string name="haftatolov3_mobiUz">Ulanish narxi: 30 000 so\'m</string>
+
+    <string name="yonalishGb3_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB_mobiUz">10 GB</string>
+
+    <string name="haftaTolov4_mobiUz">Ulanish narxi: 50 000 so\'m</string>
+
+    <string name="yonalishGb4_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+
+    <!--30 kunga-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1_mobiUz">3000 MB</string>
+
+    <string name="oylik_tolov1_mobiUz">Ulanish narxi: 18 000 so\'m</string>
+
+    <string name="yonalish_oylik1_mobiUz">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2_mobiUz">5 GB</string>
+
+    <string name="oylik_tolov2_mobiUz">Ulanish narxi: 28 000 so\'m</string>
+
+    <string name="yonalish_oylik2_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!-- 7 GB uchun  -->
+
+    <string name="yettiGB_oyiga3_mobiUz">7 GB</string>
+
+    <string name="oylik_tolov3_mobiUz">Ulanish narxi: 30 000 so\'m</string>
+
+    <string name="yonalish_oylik3_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4_mobiUz">10 GB</string>
+
+    <string name="oylik_tolov4_mobiUz">Ulanish narxi: 50 000 so\'m</string>
+
+    <string name="ypnalish_oylik_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!-- MobiUz Tariflar-->
+
+    <string name="tariflarr_mobiUz">TARIFLAR</string>
+
+    <string name="yangi_mobiUz">Yangi</string>
+
+    <string name="status_mobiUz">Status</string>
+
+    <string name="oddiy_mobiUz">Oddiy</string>
+
+
+    <!-- Yangi tariflar uchun -->
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_mobiUz">Hammasi</string>
+
+    <string name="zor_1_mobiUz">ZO\'R 1</string>
+
+    <string name="tolov_zor1_mobiUz">20 000 so\'m Oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_mobiUz">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_mobiUz">Hammasi</string>
+
+    <string name="zor_2_mobiUz">ZO\'R 2</string>
+
+    <string name="tolov_zor2_mobiUz">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_mobiUz">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_mobiUz">Hammasi</string>
+
+    <string name="zor_3_mobiUz">ZO\'R 3</string>
+
+    <string name="tolov_zor3_mobiUz">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_mobiUz"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_mobiUz">Hammasi</string>
+
+    <string name="zor_4_mobiUz">ZO\'R 4</string>
+
+    <string name="tolov_zor4_mobiUz">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_mobiUz">Batafsil</string>
+
+    <!-- Status -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status_mobiUz">Hammasi</string>
+
+    <string name="zor_1_status_mobiUz">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status_mobiUz">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_status_mobiUz">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status_mobiUz">Hammasi</string>
+
+    <string name="zor_2_status_mobiUz">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status_mobiUz">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_status_mobiUz">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status_mobiUz">Hammasi</string>
+
+    <string name="zor_3_status_mobiUz">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status_mobiUz">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_status_mobiUz"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status_mobiUz">Hammasi</string>
+
+    <string name="zor_4_status_mobiUz">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status_mobiUz">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_status_mobiUz">Batafsil</string>
+
+    <!--  Oddiy  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy_mobiUz">Hammasi</string>
+
+    <string name="zor_1_oddiy_mobiUz">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy_mobiUz">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_oddiy_mobiUz">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy_mobiUz">Hammasi</string>
+
+    <string name="zor_2_oddiy_mobiUz">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy_mobiUz">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_oddiy_mobiUz">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy_mobiUz">Hammasi</string>
+
+    <string name="zor_3_oddiy_mobiUz">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy_mobiUz">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_oddiy_mobiUz"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy_mobiUz">Hammasi</string>
+
+    <string name="zor_4_oddiy_mobiUz">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy_mobiUz">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_oddiy_mobiUz">Batafsil</string>
+
+    <!-- MobiUz SMS va daqiqalar -->
+
+    <string name="smslar_mobiUz">SMS</string>
+
+    <!--SMS 1-->
+
+    <string name="sms_1_mobiUz">100 SMS</string>
+
+    <string name="sms_narxi1_mobiUz">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_1_mobiUz">Batafsil</string>
+
+    <!--SMS 2-->
+
+    <string name="sms_2_mobiUz">100 SMS</string>
+
+    <string name="sms_narxi2_mobiUz">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_2_mobiUz">Batafsil</string>
+
+    <!--SMS 3-->
+
+    <string name="sms_3_mobiUz">100 SMS</string>
+
+    <string name="sms_narxi3_mobiUz">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_3_mobiUz">Batafsil</string>
+
+
+    <!-- MobiUz Kunlik daqiqalar -->
+
+    <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa_mobiUz">50 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_mobiUz">Daqiqa narxi: 1 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa_mobiUz">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_100_mobiUz">3 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_100_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa_mobiUz">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_120_mobiUz">5 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_120_mobiUz">Barcha yo\'nalishlar uchun</string>
+
+<!--Ucell-->
+
+    <string name="app_name_ucell">USSDMobile</string>
+
+    <string name="balans_ucell">Balans</string>
+
+    <string name="uzb_ucell">UZB</string>
+
+    <string name="rus_ucell">RUS</string>
+
+    <string name="internet_ucell">INTERNET</string>
+
+    <string name="tariflar_ucell">Tariflar</string>
+
+    <string name="sms_daqiqalar_ucell">SMS va DAQIQA</string>
+
+    <string name="ussd_kod_ucell">USSD kod</string>
+
+
+    <!-- Beeline MB lar-->
+
+    <string name="internet_mb_ucell">INTERNET</string>
+
+    <string name="birkunga_ucell">1 kunga</string>
+
+    <string name="yettikunga_ucell">7 kunga</string>
+
+    <string name="ottizkunga_ucell">30 kunga</string>
+
+    <!--1 kunga-->
+
+    <!-- 100 mb uchun   -->
+    <string name="yuzMb_ucell">100 MB</string>
+
+    <string name="ulanishNarxi1_ucell">Ulanish narxi: 2 000 so\'m</string>
+
+    <string name="yonalishlarUcun1_ucell">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   200 mb uchun -->
+
+    <string name="ikkiyuzMb_ucell">200 MB</string>
+
+    <string name="ulanishNarxi2_ucell">Ulanish narxi: 5 000 so\'m</string>
+
+    <string name="yonalishlarUchun2_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!--  500 mb uchun  -->
+    <string name="beshyuzMb_ucell">500 MB</string>
+
+    <string name="ulanishNarxi3_ucell">Ulanish narxi: 5000 so\'m </string>
+
+    <string name="yonalishlarUchun3_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!--  4gb uchun  -->
+    <string name="tortGb_ucell">4 GB</string>
+
+    <string name="ulanishNarxi4_ucell">Ulanish narxi: 10 000 so\'m </string>
+
+    <string name="yonalishlarUchun4_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!--7 kunga-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB_ucell">3000 MB</string>
+
+    <string name="haftatolov1_ucell">Ulanish narxi: 18 000 so\'m</string>
+
+    <string name="yonalishGb1_ucell">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_ucell">5 GB</string>
+
+    <string name="haftatolov2_ucell">Ulanish narxi: 28 000 so\'m</string>
+
+    <string name="yonalishGb2_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!-- 7 GB uchun  -->
+    <string name="yettiGB_ucell">7 GB</string>
+
+    <string name="haftatolov3_ucell">Ulanish narxi: 30 000 so\'m</string>
+
+    <string name="yonalishGb3_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB_ucell">10 GB</string>
+
+    <string name="haftaTolov4_ucell">Ulanish narxi: 50 000 so\'m</string>
+
+    <string name="yonalishGb4_ucell">Barcha yo\'nalishlar uchun</string>
+
+
+    <!--30 kunga-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1_ucell">3000 MB</string>
+
+    <string name="oylik_tolov1_ucell">Ulanish narxi: 18 000 so\'m</string>
+
+    <string name="yonalish_oylik1_ucell">Barcha yo\'nalishlaar uchun</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2_ucell">5 GB</string>
+
+    <string name="oylik_tolov2_ucell">Ulanish narxi: 28 000 so\'m</string>
+
+    <string name="yonalish_oylik2_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!-- 7 GB uchun  -->
+
+    <string name="yettiGB_oyiga3_ucell">7 GB</string>
+
+    <string name="oylik_tolov3_ucell">Ulanish narxi: 30 000 so\'m</string>
+
+    <string name="yonalish_oylik3_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4_ucell">10 GB</string>
+
+    <string name="oylik_tolov4_ucell">Ulanish narxi: 50 000 so\'m</string>
+
+    <string name="ypnalish_oylik_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Beeline Tariflar-->
+
+    <string name="tariflarr_ucell">TARIFLAR</string>
+
+    <string name="yangi_ucell">Yangi</string>
+
+    <string name="status_ucell">Status</string>
+
+    <string name="oddiy_ucell">Oddiy</string>
+
+
+    <!-- Yangi tariflar uchun -->
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_ucell">Hammasi</string>
+
+    <string name="zor_1_ucell">ZO\'R 1</string>
+
+    <string name="tolov_zor1_ucell">20 000 so\'m Oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_ucell">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_ucell">Hammasi</string>
+
+    <string name="zor_2_ucell">ZO\'R 2</string>
+
+    <string name="tolov_zor2_ucell">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_ucell">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_ucell">Hammasi</string>
+
+    <string name="zor_3_ucell">ZO\'R 3</string>
+
+    <string name="tolov_zor3_ucell">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_ucell"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_ucell">Hammasi</string>
+
+    <string name="zor_4_ucell">ZO\'R 4</string>
+
+    <string name="tolov_zor4_ucell">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_ucell">Batafsil</string>
+
+    <!-- Status -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status_ucell">Hammasi</string>
+
+    <string name="zor_1_status_ucell">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status_ucell">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_status_ucell">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status_ucell">Hammasi</string>
+
+    <string name="zor_2_status_ucell">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status_ucell">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_status_ucell">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status_ucell">Hammasi</string>
+
+    <string name="zor_3_status_ucell">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status_ucell">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_status_ucell"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status_ucell">Hammasi</string>
+
+    <string name="zor_4_status_ucell">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status_ucell">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_status_ucell">Batafsil</string>
+
+    <!--  Oddiy  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy_ucell">Hammasi</string>
+
+    <string name="zor_1_oddiy_ucell">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy_ucell">20 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor1_oddiy_ucell">Batafsil</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy_ucell">Hammasi</string>
+
+    <string name="zor_2_oddiy_ucell">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy_ucell">30 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor2_oddiy_ucell">Batafsil</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy_ucell">Hammasi</string>
+
+    <string name="zor_3_oddiy_ucell">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy_ucell">40 000 so\'m oylik abonent to\'lovi</string>
+
+    <string name="batafsil_zor3_oddiy_ucell"> Batafsil </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy_ucell">Hammasi</string>
+
+    <string name="zor_4_oddiy_ucell">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy_ucell">50 000 so\'m oylik abonent to'lovi</string>
+
+    <string name="batafsil_zor4_oddiy_ucell">Batafsil</string>
+
+    <!-- Beeline SMS va daqiqalar -->
+
+    <string name="smslar_ucell">SMS</string>
+
+    <!--SMS 1-->
+
+    <string name="sms_1_ucell">100 SMS</string>
+
+    <string name="sms_narxi1_ucell">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_1_ucell">Batafsil</string>
+
+    <!--SMS 2-->
+
+    <string name="sms_2_ucell">100 SMS</string>
+
+    <string name="sms_narxi2_ucell">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_2_ucell">Batafsil</string>
+
+    <!--SMS 3-->
+
+    <string name="sms_3_ucell">100 SMS</string>
+
+    <string name="sms_narxi3_ucell">Ulanish narxi: 5048.5 so\'m</string>
+
+    <string name="batafsil_3_ucell">Batafsil</string>
+
+
+    <!--Kunlik daqiqalar -->
+
+    <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa_ucell">50 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_ucell">Daqiqa narxi: 1 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa_ucell">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_100_ucell">3 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_100_ucell">Barcha yo\'nalishlar uchun</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa_ucell">100 Daqiqa</string>
+
+    <string name="kunlik_daqiqa_narxi_120_ucell">5 000 so\'m</string>
+
+    <string name="daqiqa_yonalishi_120_ucell">Barcha yo\'nalishlar uchun</string>
 
 
 </resources>
