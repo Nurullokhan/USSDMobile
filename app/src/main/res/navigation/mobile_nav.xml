@@ -20,4 +20,9 @@
         android:name="com.example.ussdmobile.fragments.FragmentTarif"
         android:label="fragment_tarif"
         tools:layout="@layout/fragment_tarif" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.ussdmobile.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
 </navigation>
