@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--BEELINE-->
+
+    <string name="app_name">USSDМобильный</string>
+
+    <string name="beeline">Beeline</string>
+
+    <string name="balans">Баланс</string>
+
+    <string name="uzb">УЗБ</string>
+
+    <string name="rus">РУС</string>
+
+    <string name="internet">ИНТЕРНЕТ</string>
+
+    <string name="tariflar">Тарифы</string>
+
+    <string name="sms_daqiqalar">СМС и МИНУТА</string>
+
+    <string name="ussd_kod">USSD-код</string>
+
+
+    <!-- Beeline MB lar-->
+
+
+    <string name="birkunga">на 1 день</string>
+
+    <string name="yettikunga">на 7 дней</string>
+
+    <string name="ottizkunga">на 30 дней</string>
+
+    <!--на 1 день-->
+
+    <!-- 100 mb uchun   -->
+    <string name="yuzMb">100 МБ</string>
+
+    <string name="ulanishNarxi1">Стоимость подключения: 2 000 сум</string>
+
+    <string name="yonalishlarUcun1">Для всех направлений</string>
+
+
+    <!--   200 mb uchun -->3
+
+
+    <string name="ikkiyuzMb">200 МБ</string>
+
+    <string name="ulanishNarxi2">Стоимость подключения: 5000 сум</string>
+
+    <string name="yonalishlarUchun2">Для всех направлений</string>
+
+    <!--  500 mb uchun  -->
+    <string name="beshyuzMb">500 МБ</string>
+
+    <string name="ulanishNarxi3">Стоимость подключения: 5000 сум </string>
+
+    <string name="yonalishlarUchun3">Для всех направлений</string>
+
+    <!--  4gb uchun  -->
+    <string name="tortGb">4ГБ</string>
+
+    <string name="ulanishNarxi4">Стоимость подключения: 10 000 сум </string>
+
+    <string name="yonalishlarUchun4">Для всех направлений</string>
+
+    <!--на 7 дней-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB">3000 МБ</string>
+
+    <string name="haftatolov1">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalishGb1">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb">5 ГБ</string>
+
+    <string name="haftatolov2">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalishGb2">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+    <string name="yettiGB">7 ГБ</string>
+
+    <string name="haftatolov3">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalishGb3">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB">10 ГБ</string>
+
+    <string name="haftaTolov4">Стоимость подключения: 50 000 сум</string>
+
+    <string name="yonalishGb4">Для всех направлений</string>
+
+
+    <!--на 30 дней-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1">3000 МБ</string>
+
+    <string name="oylik_tolov1">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalish_oylik1">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2">5 ГБ</string>
+
+    <string name="oylik_tolov2">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalish_oylik2">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+
+    <string name="yettiGB_oyiga3">7 ГБ</string>
+
+    <string name="oylik_tolov3">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalish_oylik3">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4">10 ГБ</string>
+
+    <string name="oylik_tolov4">Стоимость подключения: 50 000 сум</string>
+
+    <string name="ypnalish_oylik">Для всех направлений</string>
+
+    <!-- Beeline Тарифы-->
+
+    <string name="tariflarr">Тарифы</string>
+
+    <string name="yangi">Новый</string>
+
+    <string name="status">Статус</string>
+
+    <string name="oddiy">Простой</string>
+
+
+    <!-- Новый tariflar uchun -->
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1">Все</string>
+
+    <string name="zor_1">ZO\'R 1</string>
+
+    <string name="tolov_zor1">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2">Все</string>
+
+    <string name="zor_2">ZO\'R 2</string>
+
+    <string name="tolov_zor2">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3">Все</string>
+
+    <string name="zor_3">ZO\'R 3</string>
+
+    <string name="tolov_zor3">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4">Все</string>
+
+    <string name="zor_4">ZO\'R 4</string>
+
+    <string name="tolov_zor4">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4">Более</string>
+
+    <!-- Статус -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status">Все</string>
+
+    <string name="zor_1_status">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_status">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status">Все</string>
+
+    <string name="zor_2_status">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_status">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status">Все</string>
+
+    <string name="zor_3_status">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_status"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status">Все</string>
+
+    <string name="zor_4_status">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_status">Более</string>
+
+    <!--  Простой  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy">Все</string>
+
+    <string name="zor_1_oddiy">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_oddiy">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy">Все</string>
+
+    <string name="zor_2_oddiy">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_oddiy">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy">Все</string>
+
+    <string name="zor_3_oddiy">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_oddiy"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy">Все</string>
+
+    <string name="zor_4_oddiy">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_oddiy">Более</string>
+
+    <!-- Beeline СМС va daqiqalar -->
+
+    <string name="smslar">СМС</string>
+
+    <!--СМС 1-->
+
+    <string name="sms_1">100 СМС</string>
+
+    <string name="sms_narxi1">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_1">Более</string>
+
+    <!--СМС 2-->
+
+    <string name="sms_2">100 СМС</string>
+
+    <string name="sms_narxi2">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_2">Более</string>
+
+    <!--СМС 3-->
+
+    <string name="sms_3">100 СМС</string>
+
+    <string name="sms_narxi3">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_3">Более</string>
+
+
+    <!--Kunlik daqiqalar -->
+
+    <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa">50 минут</string>
+
+    <string name="kunlik_daqiqa_narxi">Цена за минуту: 1000 сум</string>
+
+    <string name="daqiqa_yonalishi">Для всех направлений</string>
+
+    <!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_100">3000 сум</string>
+
+    <string name="daqiqa_yonalishi_100">Для всех направлений</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_120">5000 сум</string>
+
+    <string name="daqiqa_yonalishi_120">Для всех направлений</string>
+
+
+    <!--Uzmobile-->
+
+    <string name="app_name_uzmobile">USSDМобильный</string>
+
+    <string name="balans_uzmobile">Баланс</string>
+
+    <string name="uzb_uzmobile">УЗБ</string>
+
+    <string name="rus_uzmobile">РУС</string>
+
+    <string name="internet_uzmobile">ИНТЕРНЕТ</string>
+
+    <string name="tariflar_uzmobile">Тарифы</string>
+
+    <string name="sms_daqiqalar_uzmobile">СМС и МИНУТА</string>
+
+    <string name="ussd_kod_uzmobile">USSD-код</string>
+
+
+    <!-- uzmobile MB lar-->
+
+    <string name="internet_mb_uzmobile">ИНТЕРНЕТ</string>
+
+    <string name="birkunga_uzmobile">на 1 день</string>
+
+    <string name="yettikunga_uzmobile">на 7 дней</string>
+
+    <string name="ottizkunga_uzmobile">на 30 дней</string>
+
+    <!--на 1 день-->
+
+    <!-- 100 mb uchun   -->
+    <string name="yuzMb_uzmobile">100 МБ</string>
+
+    <string name="ulanishNarxi1_uzmobile">Стоимость подключения: 2 000 сум</string>
+
+    <string name="yonalishlarUcun1_uzmobile">Для всех направлений</string>
+
+
+    <!--   200 mb uchun -->
+
+    <string name="ikkiyuzMb_uzmobile">200 МБ</string>
+
+    <string name="ulanishNarxi2_uzmobile">Стоимость подключения: 5000 сум</string>
+
+    <string name="yonalishlarUchun2_uzmobile">Для всех направлений</string>
+
+    <!--  500 mb uchun  -->
+    <string name="beshyuzMb_uzmobile">500 МБ</string>
+
+    <string name="ulanishNarxi3_uzmobile">Стоимость подключения: 5000 сум </string>
+
+    <string name="yonalishlarUchun3_uzmobile">Для всех направлений</string>
+
+    <!--  4gb uchun  -->
+    <string name="tortGb_uzmobile">4ГБ</string>
+
+    <string name="ulanishNarxi4_uzmobile">Стоимость подключения: 10 000 сум </string>
+
+    <string name="yonalishlarUchun4_uzmobile">Для всех направлений</string>
+
+    <!--на 7 дней-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB_uzmobile">3000 МБ</string>
+
+    <string name="haftatolov1_uzmobile">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalishGb1_uzmobile">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_uzmobile">5 ГБ</string>
+
+    <string name="haftatolov2_uzmobile">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalishGb2v">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+    <string name="yettiGB_uzmobile">7 ГБ</string>
+
+    <string name="haftatolov3_uzmobile">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalishGb3_uzmobile">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB_uzmobile">10 ГБ</string>
+
+    <string name="haftaTolov4_uzmobile">Стоимость подключения: 50 000 сум</string>
+
+    <string name="yonalishGb4_uzmobile">Для всех направлений</string>
+
+
+    <!--на 30 дней-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1_uzmobile">3000 МБ</string>
+
+    <string name="oylik_tolov1_uzmobile">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalish_oylik_uzmobile1">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2_uzmobile">5 ГБ</string>
+
+    <string name="oylik_tolov2_uzmobile">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalish_oylik2_uzmobile">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+
+    <string name="yettiGB_oyiga3_uzmobile">7 ГБ</string>
+
+    <string name="oylik_tolov3_uzmobile">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalish_oylik3_uzmobile">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4_uzmobile">10 ГБ</string>
+
+    <string name="oylik_tolov4_uzmobile">Стоимость подключения: 50 000 сум</string>
+
+    <string name="ypnalish_oylik_uzmobile">Для всех направлений</string>
+
+    <!-- Uzmobile Тарифы-->
+
+    <string name="tariflarr_uzmobile">Тарифы</string>
+
+    <string name="yangi_uzmobile">Новый</string>
+
+    <string name="status_uzmobile">Статус</string>
+
+    <string name="oddiy_uzmobile">Простой</string>
+
+
+    <!-- Новый tariflar uchun -->
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_uzmobile">Все</string>
+
+    <string name="zor_1_uzmobile">ZO\'R 1</string>
+
+    <string name="tolov_zor1_uzmobile">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_uzmobile">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_uzmobile">Все</string>
+
+    <string name="zor_2_uzmobile">ZO\'R 2</string>
+
+    <string name="tolov_zor2_uzmobile">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_uzmobile">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_uzmobile">Все</string>
+
+    <string name="zor_3_uzmobile">ZO\'R 3</string>
+
+    <string name="tolov_zor3_uzmobile">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_uzmobile"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_uzmobile">Все</string>
+
+    <string name="zor_4_uzmobile">ZO\'R 4</string>
+
+    <string name="tolov_zor4_uzmobile">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_uzmobile">Более</string>
+
+    <!-- Статус -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status_uzmobile">Все</string>
+
+    <string name="zor_1_status_uzmobile">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status_uzmobile">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_status_uzmobile">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status_uzmobile">Все</string>
+
+    <string name="zor_2_status_uzmobile">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status_uzmobile">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_status_uzmobile">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status_uzmobile">Все</string>
+
+    <string name="zor_3_status_uzmobile">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status_uzmobile">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_status_uzmobile"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status_uzmobile">Все</string>
+
+    <string name="zor_4_status_uzmobile">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status_uzmobile">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_status_uzmobile">Более</string>
+
+    <!--  Простой  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy_uzmobile">Все</string>
+
+    <string name="zor_1_oddiy_uzmobile">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy_uzmobile">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_oddiy_uzmobile">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy_uzmobile">Все</string>
+
+    <string name="zor_2_oddiy_uzmobile">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy_uzmobile">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_oddiy_uzmobile">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy_uzmobile">Все</string>
+
+    <string name="zor_3_oddiy_uzmobile">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy_uzmobile">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_oddiy_uzmobile"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy_uzmobile">Все</string>
+
+    <string name="zor_4_oddiy_uzmobile">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy_uzmobile">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_oddiy_uzmobile">Более</string>
+
+    <!-- Uzmobile СМС va daqiqalar -->
+
+    <string name="smslar_uzmobile">СМС</string>
+
+    <!--СМС 1-->
+
+    <string name="sms_1_uzmobile">100 СМС</string>
+
+    <string name="sms_narxi1_uzmobile">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_1_uzmobile">Более</string>
+
+    <!--СМС 2-->
+
+    <string name="sms_2_uzmobile">100 СМС</string>
+
+    <string name="sms_narxi2_uzmobile">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_2_uzmobile">Более</string>
+
+    <!--СМС 3-->
+
+    <string name="sms_3_uzmobile">100 СМС</string>
+
+    <string name="sms_narxi3_uzmobile">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_3_uzmobile">Более</string>
+
+
+    <!-- uzmobile Kunlik daqiqalar -->
+
+    <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa_uzmobile">50 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_uzmobile">Цена за минуту: 1000 сум</string>
+
+    <string name="daqiqa_yonalishi_uzmobile">Для всех направлений</string>
+
+    <!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa_uzmobile">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_100_uzmobile">3000 сум</string>
+
+    <string name="daqiqa_yonalishi_100_uzmobile">Для всех направлений</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa_uzmobile">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_120_uzmobile">5000 сум</string>
+
+    <string name="daqiqa_yonalishi_120_uzmobile">Для всех направлений</string>
+
+
+    <!--MobiUz-->
+
+
+    <string name="app_name_mobiUz">USSDМобильный</string>
+
+    <string name="balans_mobiUz">Баланс</string>
+
+    <string name="uzb_mobiUz">УЗБ</string>
+
+    <string name="rus_mobiUz">РУС</string>
+
+    <string name="internet_mobiUz">ИНТЕРНЕТ</string>
+
+    <string name="tariflar_mobiUz">Тарифы</string>
+
+    <string name="sms_daqiqalar_mobiUz">СМС и МИНУТА</string>
+
+    <string name="ussd_kod_mobiUz">USSD-код</string>
+
+
+    <!-- MobiUz MB lar-->
+
+    <string name="internet_mb_mobiUz">ИНТЕРНЕТ</string>
+
+    <string name="birkunga_mobiUz">на 1 день</string>
+
+    <string name="yettikunga_mobiUz_mobiUz">на 7 дней</string>
+
+    <string name="ottizkunga_mobiUz">на 30 дней</string>
+
+    <!--на 1 день-->
+
+    <!-- 100 mb uchun   -->
+    <string name="yuzMb_mobiUz">100 МБ</string>
+
+    <string name="ulanishNarxi1_mobiUz">Стоимость подключения: 2 000 сум</string>
+
+    <string name="yonalishlarUcun1_mobiUz_mobiUz">Для всех направлений</string>
+
+
+    <!--   200 mb uchun -->
+
+    <string name="ikkiyuzMb_mobiUz">200 МБ</string>
+
+    <string name="ulanishNarxi2_mobiUz">Стоимость подключения: 5000 сум</string>
+
+    <string name="yonalishlarUchun2_mobiUz">Для всех направлений</string>
+
+    <!--  500 mb uchun  -->
+    <string name="beshyuzMb_mobiUz">500 МБ</string>
+
+    <string name="ulanishNarxi3_mobiUz">Стоимость подключения: 5000 сум</string>
+
+    <string name="yonalishlarUchun3_mobiUz">Для всех направлений</string>
+
+    <!--  4gb uchun  -->
+    <string name="tortGb_mobiUz">4ГБ</string>
+
+    <string name="ulanishNarxi4_mobiUz">Стоимость подключения: 10 000 сум </string>
+
+    <string name="yonalishlarUchun4_mobiUz">Для всех направлений</string>
+
+    <!--на 7 дней-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB_mobiUz">3000 МБ</string>
+
+    <string name="haftatolov1_mobiUz">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalishGb1_mobiUz">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_mobiUz">5 ГБ</string>
+
+    <string name="haftatolov2_mobiUz">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalishGb2_mobiUz">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+    <string name="yettiGB_mobiUz">7 ГБ</string>
+
+    <string name="haftatolov3_mobiUz">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalishGb3_mobiUz">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB_mobiUz">10 ГБ</string>
+
+    <string name="haftaTolov4_mobiUz">Стоимость подключения: 50 000 сум</string>
+
+    <string name="yonalishGb4_mobiUz">Для всех направлений</string>
+
+
+    <!--на 30 дней-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1_mobiUz">3000 МБ</string>
+
+    <string name="oylik_tolov1_mobiUz">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalish_oylik1_mobiUz">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2_mobiUz">5 ГБ</string>
+
+    <string name="oylik_tolov2_mobiUz">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalish_oylik2_mobiUz">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+
+    <string name="yettiGB_oyiga3_mobiUz">7 ГБ</string>
+
+    <string name="oylik_tolov3_mobiUz">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalish_oylik3_mobiUz">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4_mobiUz">10 ГБ</string>
+
+    <string name="oylik_tolov4_mobiUz">Стоимость подключения: 50 000 сум</string>
+
+    <string name="ypnalish_oylik_mobiUz">Для всех направлений</string>
+
+    <!-- MobiUz Тарифы-->
+
+    <string name="tariflarr_mobiUz">Тарифы</string>
+
+    <string name="yangi_mobiUz">Новый</string>
+
+    <string name="status_mobiUz">Статус</string>
+
+    <string name="oddiy_mobiUz">Простой</string>
+
+
+    <!-- Новый tariflar uchun -->
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_mobiUz">Все</string>
+
+    <string name="zor_1_mobiUz">ZO\'R 1</string>
+
+    <string name="tolov_zor1_mobiUz">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_mobiUz">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_mobiUz">Все</string>
+
+    <string name="zor_2_mobiUz">ZO\'R 2</string>
+
+    <string name="tolov_zor2_mobiUz">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_mobiUz">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_mobiUz">Все</string>
+
+    <string name="zor_3_mobiUz">ZO\'R 3</string>
+
+    <string name="tolov_zor3_mobiUz">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_mobiUz"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_mobiUz">Все</string>
+
+    <string name="zor_4_mobiUz">ZO\'R 4</string>
+
+    <string name="tolov_zor4_mobiUz">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_mobiUz">Более</string>
+
+    <!-- Статус -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status_mobiUz">Все</string>
+
+    <string name="zor_1_status_mobiUz">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status_mobiUz">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_status_mobiUz">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status_mobiUz">Все</string>
+
+    <string name="zor_2_status_mobiUz">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status_mobiUz">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_status_mobiUz">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status_mobiUz">Все</string>
+
+    <string name="zor_3_status_mobiUz">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status_mobiUz">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_status_mobiUz"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status_mobiUz">Все</string>
+
+    <string name="zor_4_status_mobiUz">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status_mobiUz">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_status_mobiUz">Более</string>
+
+    <!--  Простой  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy_mobiUz">Все</string>
+
+    <string name="zor_1_oddiy_mobiUz">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy_mobiUz">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_oddiy_mobiUz">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy_mobiUz">Все</string>
+
+    <string name="zor_2_oddiy_mobiUz">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy_mobiUz">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_oddiy_mobiUz">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy_mobiUz">Все</string>
+
+    <string name="zor_3_oddiy_mobiUz">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy_mobiUz">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_oddiy_mobiUz"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy_mobiUz">Все</string>
+
+    <string name="zor_4_oddiy_mobiUz">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy_mobiUz">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_oddiy_mobiUz">Более</string>
+
+    <!-- MobiUz СМС va daqiqalar -->
+
+    <string name="smslar_mobiUz">СМС</string>
+
+    <!--СМС 1-->
+
+    <string name="sms_1_mobiUz">100 СМС</string>
+
+    <string name="sms_narxi1_mobiUz">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_1_mobiUz">Более</string>
+
+    <!--СМС 2-->
+
+    <string name="sms_2_mobiUz">100 СМС</string>
+
+    <string name="sms_narxi2_mobiUz">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_2_mobiUz">Более</string>
+
+    <!--СМС 3-->
+
+    <string name="sms_3_mobiUz">100 СМС</string>
+
+    <string name="sms_narxi3_mobiUz">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_3_mobiUz">Более</string>
+
+
+    <!-- MobiUz Kunlik daqiqalar -->
+
+    <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa_mobiUz">50 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_mobiUz">Цена за минуту: 1000 сум</string>
+
+    <string name="daqiqa_yonalishi_mobiUz">Для всех направлений</string>
+
+    <!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa_mobiUz">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_100_mobiUz">3000 сум</string>
+
+    <string name="daqiqa_yonalishi_100_mobiUz">Для всех направлений</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa_mobiUz">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_120_mobiUz">5000 сум</string>
+
+    <string name="daqiqa_yonalishi_120_mobiUz">Для всех направлений</string>
+
+    <!--Ucell-->
+
+    <string name="app_name_ucell">USSDМобильный</string>
+
+    <string name="balans_ucell">Баланс</string>
+
+    <string name="uzb_ucell">УЗБ</string>
+
+    <string name="rus_ucell">РУС</string>
+
+    <string name="internet_ucell">ИНТЕРНЕТ</string>
+
+    <string name="tariflar_ucell">Тарифы</string>
+
+    <string name="sms_daqiqalar_ucell">СМС и МИНУТА</string>
+
+    <string name="ussd_kod_ucell">USSD-код</string>
+
+
+    <!-- Ucell MB lar-->
+
+    <string name="internet_mb_ucell">ИНТЕРНЕТ</string>
+
+    <string name="birkunga_ucell">на 1 день</string>
+
+    <string name="yettikunga_ucell">на 7 дней</string>
+
+    <string name="ottizkunga_ucell">на 30 дней</string>
+
+    <!--на 1 день-->
+
+    <!-- 100 mb uchun   -->
+    <string name="yuzMb_ucell">100 МБ</string>
+
+    <string name="ulanishNarxi1_ucell">Стоимость подключения: 2 000 сум</string>
+
+    <string name="yonalishlarUcun1_ucell">Для всех направлений</string>
+
+
+    <!--   200 mb uchun -->
+
+    <string name="ikkiyuzMb_ucell">200 МБ</string>
+
+    <string name="ulanishNarxi2_ucell">Стоимость подключения: 5000 сум</string>
+
+    <string name="yonalishlarUchun2_ucell">Для всех направлений</string>
+
+    <!--  500 mb uchun  -->
+    <string name="beshyuzMb_ucell">500 МБ</string>
+
+    <string name="ulanishNarxi3_ucell">Стоимость подключения: 5000 сум </string>
+
+    <string name="yonalishlarUchun3_ucell">Для всех направлений</string>
+
+    <!--  4gb uchun  -->
+    <string name="tortGb_ucell">4ГБ</string>
+
+    <string name="ulanishNarxi4_ucell">Стоимость подключения: 10 000 сум</string>
+
+    <string name="yonalishlarUchun4_ucell">Для всех направлений</string>
+
+    <!--на 7 дней-->
+
+
+    <!-- 3 GB uchun  -->
+    <string name="uchGB_ucell">3000 МБ</string>
+
+    <string name="haftatolov1_ucell">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalishGb1_ucell">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_ucell">5 ГБ</string>
+
+    <string name="haftatolov2_ucell">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalishGb2_ucell">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+    <string name="yettiGB_ucell">7 ГБ</string>
+
+    <string name="haftatolov3_ucell">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalishGb3_ucell">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="on_GB_ucell">10 ГБ</string>
+
+    <string name="haftaTolov4_ucell">Стоимость подключения: 50 000 сум</string>
+
+    <string name="yonalishGb4_ucell">Для всех направлений</string>
+
+
+    <!--на 30 дней-->
+
+    <!-- 3 GB uchun -->
+    <string name="uchGB_oyiga1_ucell">3000 МБ</string>
+
+    <string name="oylik_tolov1_ucell">Стоимость подключения: 18 000 сум</string>
+
+    <string name="yonalish_oylik1_ucell">Для всех направлений</string>
+
+
+    <!--   5 Gb uchun -->
+
+    <string name="beshGb_oyiga2_ucell">5 ГБ</string>
+
+    <string name="oylik_tolov2_ucell">Стоимость подключения: 28 000 сум</string>
+
+    <string name="yonalish_oylik2_ucell">Для всех направлений</string>
+
+    <!-- 7 ГБ uchun  -->
+
+    <string name="yettiGB_oyiga3_ucell">7 ГБ</string>
+
+    <string name="oylik_tolov3_ucell">Стоимость подключения: 30 000 сум</string>
+
+    <string name="yonalish_oylik3_ucell">Для всех направлений</string>
+
+    <!--  10gb uchun  -->
+    <string name="onGB_oyiga4_ucell">10 ГБ</string>
+
+    <string name="oylik_tolov4_ucell">Стоимость подключения: 50 000 сум</string>
+
+    <string name="ypnalish_oylik_ucell">Для всех направлений</string>
+
+    <!-- Beeline Тарифы-->
+
+    <string name="tariflarr_ucell">Тарифы</string>
+
+    <string name="yangi_ucell">Новый</string>
+
+    <string name="status_ucell">Статус</string>
+
+    <string name="oddiy_ucell">Простой</string>
+
+
+    <!-- Новый tariflar uchun -->
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_ucell">Все</string>
+
+    <string name="zor_1_ucell">ZO\'R 1</string>
+
+    <string name="tolov_zor1_ucell">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_ucell">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_ucell">Все</string>
+
+    <string name="zor_2_ucell">ZO\'R 2</string>
+
+    <string name="tolov_zor2_ucell">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_ucell">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_ucell">Все</string>
+
+    <string name="zor_3_ucell">ZO\'R 3</string>
+
+    <string name="tolov_zor3_ucell">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_ucell"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_ucell">Все</string>
+
+    <string name="zor_4_ucell">ZO\'R 4</string>
+
+    <string name="tolov_zor4_ucell">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_ucell">Более</string>
+
+    <!-- Статус -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_status_ucell">Все</string>
+
+    <string name="zor_1_status_ucell">ZO\'R 1</string>
+
+    <string name="tolov_zor1_status_ucell">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_status_ucell">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_status_ucell">Все</string>
+
+    <string name="zor_2_status_ucell">ZO\'R 2</string>
+
+    <string name="tolov_zor2_status_ucell">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_status_ucell">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_status_ucell">Все</string>
+
+    <string name="zor_3_status_ucell">ZO\'R 3</string>
+
+    <string name="tolov_zor3_status_ucell">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_status_ucell"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_status_ucell">Все</string>
+
+    <string name="zor_4_status_ucell">ZO\'R 4</string>
+
+    <string name="tolov_zor4_status_ucell">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_status_ucell">Более</string>
+
+    <!--  Простой  -->
+
+
+    <!-- Zo'r 1 -->
+
+    <string name="hammasi_zor1_oddiy_ucell">Все</string>
+
+    <string name="zor_1_oddiy_ucell">ZO\'R 1</string>
+
+    <string name="tolov_zor1_oddiy_ucell">Ежемесячная абонентская плата 20 000 сум</string>
+
+    <string name="batafsil_zor1_oddiy_ucell">Более</string>
+
+    <!--Zo'r 2-->
+
+    <string name="hammasi_zor2_oddiy_ucell">Все</string>
+
+    <string name="zor_2_oddiy_ucell">ZO\'R 2</string>
+
+    <string name="tolov_zor2_oddiy_ucell">Ежемесячная абонентская плата 30 000 сум</string>
+
+    <string name="batafsil_zor2_oddiy_ucell">Более</string>
+
+    <!--Zo'r 3-->
+
+    <string name="hammasi_zor3_oddiy_ucell">Все</string>
+
+    <string name="zor_3_oddiy_ucell">ZO\'R 3</string>
+
+    <string name="tolov_zor3_oddiy_ucell">Ежемесячная абонентская плата 40 000 сум</string>
+
+    <string name="batafsil_zor3_oddiy_ucell"> Более </string>
+
+
+    <!-- Zo'r 4 -->
+
+    <string name="hammasi_zor4_oddiy_ucell">Все</string>
+
+    <string name="zor_4_oddiy_ucell">ZO\'R 4</string>
+
+    <string name="tolov_zor4_oddiy_ucell">Ежемесячная абонентская плата 50 000 сум</string>
+
+    <string name="batafsil_zor4_oddiy_ucell">Более</string>
+
+    <!-- Beeline СМС va daqiqalar -->
+
+    <string name="smslar_ucell">СМС</string>
+
+    <!--СМС 1-->
+
+    <string name="sms_1_ucell">100 СМС</string>
+
+    <string name="sms_narxi1_ucell">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_1_ucell">Более</string>
+
+    <!--СМС 2-->
+
+    <string name="sms_2_ucell">100 СМС</string>
+
+    <string name="sms_narxi2_ucell">Стоимость подключения: 5048,5 сум</string>
+
+    <string name="batafsil_2_ucell">Более</string>
+
+    <!--СМС 3-->
+
+    <string name="sms_3_ucell">100 СМС</string>
+
+    <string name="sms_narxi3_ucell">Стоимость подключения: 5048,5 сум</string>
+
+
+
+    <string name="batafsil_3_ucell">Более</string>
+
+
+    <!--Kunlik daqiqalar -->
+
+    <!--Kunlik 50 daqiqa-->
+    <string name="kunlik_50daqiqa_ucell">50 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_ucell">Цена за минуту: 1000 сум</string>
+
+    <string name="daqiqa_yonalishi_ucell">Для всех направлений</string>
+
+    <!-- Kunlik 100 daqiqa -->
+
+    <string name="kunlik_100daqiqa_ucell">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_100_ucell">3000 сум</string>
+
+    <string name="daqiqa_yonalishi_100_ucell">Для всех направлений</string>
+
+    <!-- Kunlik 120 daqiqa -->
+
+    <string name="kunlik_120daqiqa_ucell">100 минут</string>
+
+    <string name="kunlik_daqiqa_narxi_120_ucell">5000 сум</string>
+
+    <string name="daqiqa_yonalishi_120_ucell">Для всех направлений</string>
+
+</resources>

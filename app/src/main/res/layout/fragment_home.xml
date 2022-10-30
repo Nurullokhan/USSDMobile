@@ -341,7 +341,6 @@
                 android:textStyle="bold|normal" />
 
         </androidx.cardview.widget.CardView>
-
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"

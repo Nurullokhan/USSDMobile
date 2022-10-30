@@ -40,7 +40,8 @@
     <string name="yonalishlarUcun1">Barcha yo\'nalishlaar uchun</string>
 
 
-    <!--   200 mb uchun -->
+    <!--   200 mb uchun -->3
+
 
     <string name="ikkiyuzMb">200 MB</string>
 
@@ -509,7 +510,6 @@
     <string name="batafsil_zor4_uzmobile">Batafsil</string>
 
     <!-- Status -->
-
 
     <!-- Zo'r 1 -->
 
@@ -1299,6 +1299,5 @@
     <string name="kunlik_daqiqa_narxi_120_ucell">5 000 so\'m</string>
 
     <string name="daqiqa_yonalishi_120_ucell">Barcha yo\'nalishlar uchun</string>
-
 
 </resources>
