@@ -331,6 +331,8 @@
 
     <string name="app_name_uzmobile">USSDMobile</string>
 
+    <string name="uzmobile">Uzmobile</string>
+
     <string name="balans_uzmobile">Balans</string>
 
     <string name="uzb_uzmobile">UZB</string>
@@ -653,6 +655,7 @@
 
     <!--MobiUz-->
 
+    <string name="mobi_uz">Mobiuz</string>
 
     <string name="app_name_mobiUz">USSDMobile</string>
 
@@ -977,6 +980,8 @@
     <string name="daqiqa_yonalishi_120_mobiUz">Barcha yo\'nalishlar uchun</string>
 
     <!--Ucell-->
+
+    <string name="ucell">Ucell</string>
 
     <string name="app_name_ucell">USSDMobile</string>
 

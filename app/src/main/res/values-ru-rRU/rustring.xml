@@ -331,9 +331,11 @@
 
     <!--Uzmobile-->
 
-    <string name="app_name_uzmobile">USSDМобильный</string>
+    <string name="app_name_uzmobile">USSD Мобильный</string>
 
     <string name="balans_uzmobile">Баланс</string>
+
+    <string name="uzmobile">Узмобайл</string>
 
     <string name="uzb_uzmobile">УЗБ</string>
 
@@ -656,6 +658,7 @@
 
     <!--MobiUz-->
 
+    <string name="mobi_uz">Mobiuz</string>
 
     <string name="app_name_mobiUz">USSDМобильный</string>
 
@@ -980,6 +983,8 @@
     <string name="daqiqa_yonalishi_120_mobiUz">Для всех направлений</string>
 
     <!--Ucell-->
+
+    <string name="ucell">Ucell</string>
 
     <string name="app_name_ucell">USSDМобильный</string>
 

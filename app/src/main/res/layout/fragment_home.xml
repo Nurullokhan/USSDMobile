@@ -115,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="30dp"
-            android:src="@drawable/ic_balance"
+            android:src="@drawable/balans_beeline"
             android:translationZ="1dp" />
 
         <TextView
@@ -228,7 +228,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center"
                 android:layout_marginBottom="14dp"
-                android:src="@drawable/ic_internet" />
+                android:src="@drawable/internet_beeline" />
 
             <TextView
                 android:layout_width="wrap_content"
