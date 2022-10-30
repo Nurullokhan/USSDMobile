@@ -4,6 +4,8 @@
 
     <string name="app_name">USSDMobile</string>
 
+    <string name="beeline">Beeline</string>
+
     <string name="balans">Balans</string>
 
     <string name="uzb">UZB</string>
@@ -21,7 +23,6 @@
 
     <!-- Beeline MB lar-->
 
-    <string name="internet_mb">INTERNET</string>
 
     <string name="birkunga">1 kunga</string>
 
@@ -40,6 +41,7 @@
 
 
     <!--   200 mb uchun -->
+
 
     <string name="ikkiyuzMb">200 MB</string>
 
@@ -325,7 +327,7 @@
     <string name="daqiqa_yonalishi_120">Barcha yo\'nalishlar uchun</string>
 
 
-<!--Uzmobile-->
+    <!--Uzmobile-->
 
     <string name="app_name_uzmobile">USSDMobile</string>
 
@@ -509,7 +511,6 @@
 
     <!-- Status -->
 
-
     <!-- Zo'r 1 -->
 
     <string name="hammasi_zor1_status_uzmobile">Hammasi</string>
@@ -650,7 +651,7 @@
     <string name="daqiqa_yonalishi_120_uzmobile">Barcha yo\'nalishlar uchun</string>
 
 
-<!--MobiUz-->
+    <!--MobiUz-->
 
 
     <string name="app_name_mobiUz">USSDMobile</string>
@@ -975,7 +976,7 @@
 
     <string name="daqiqa_yonalishi_120_mobiUz">Barcha yo\'nalishlar uchun</string>
 
-<!--Ucell-->
+    <!--Ucell-->
 
     <string name="app_name_ucell">USSDMobile</string>
 
@@ -1298,6 +1299,7 @@
     <string name="kunlik_daqiqa_narxi_120_ucell">5 000 so\'m</string>
 
     <string name="daqiqa_yonalishi_120_ucell">Barcha yo\'nalishlar uchun</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
