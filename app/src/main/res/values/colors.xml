@@ -7,4 +7,34 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+<!--    Beeline colors  -->
+    <color name="sariq">#F7D145</color>
+
+    <color name="kulrang">#333333</color>
+    
+    <color name="background">#1E1E1E</color>
+
+    <color name="qora">#FF000000</color>
+
+    <color name="shadow">#D9D9D9</color>
+
+    <color name="text_color">#FFFFFF</color>
+
+    <color name="menu">#333333</color>
+
+    <color name="batafsil_color">#F2C94C</color>
+
+    <!--Uzmobile-->
+    
+    <color name="blue">#01B4FF</color>
+    
+    <!--MobiUz-->
+    
+    <color name="qizil">#E31E24</color>
+
+    <!--Ucell-->
+    
+    <color name="binafsha">#6A2383</color>
+
 </resources>
