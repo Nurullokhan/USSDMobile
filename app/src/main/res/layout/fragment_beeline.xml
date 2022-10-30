@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@color/sariq"
-    tools:context="com.example.ussdmobile.fragments.FragmentHome">
-
-    <!--    <ImageView
-            app:layout_constraintHorizontal_bias="0.05"
-            android:layout_marginTop="16dp"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/ic_menu"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />-->
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.BeelineFragment">
 
     <FrameLayout
         android:id="@+id/logoFrame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1">
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/logo"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="300dp"
             android:layout_height="135dp"
             android:layout_gravity="center_horizontal"
@@ -37,21 +30,18 @@
             android:elevation="@null"
             android:focusable="true"
             android:foreground="?selectableItemBackgroundBorderless"
-            android:translationZ="1dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            android:translationZ="1dp" />
 
         <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/shadow"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="292dp"
             android:layout_height="135dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:elevation="@null"
-            app:cardBackgroundColor="@color/shadow"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            android:elevation="@null" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -76,17 +66,20 @@
 
     <FrameLayout
         android:id="@+id/balance"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logoFrame"
-        app:layout_constraintVertical_bias="0.1">
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
@@ -94,21 +87,18 @@
             android:elevation="@null"
             android:focusable="true"
             android:foreground="?selectableItemBackgroundBorderless"
-            android:translationZ="1dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            android:translationZ="1dp" />
 
         <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/shadow"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="162dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:elevation="@null"
-            app:cardBackgroundColor="@color/shadow"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            android:elevation="@null" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -132,25 +122,25 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logoFrame"
-        app:layout_constraintVertical_bias="0.1">
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
             android:elevation="@null"
-            android:translationZ="1dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null">
+            android:translationZ="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -193,35 +183,38 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/shadow"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="142dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:elevation="@null"
-            app:cardBackgroundColor="@color/shadow"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            android:elevation="@null" />
 
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/internet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/sms_minute"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/tariff"
-        app:layout_constraintTop_toBottomOf="@+id/balance">
+        app:layout_constraintTop_toBottomOf="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:elevation="@null"
-            android:translationZ="1dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null">
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:translationZ="1dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -243,36 +236,39 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/shadow"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
-            android:elevation="@null"
-            app:cardBackgroundColor="@color/shadow"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            android:elevation="@null" />
 
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/tariff"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@id/internet"
         app:layout_constraintLeft_toRightOf="@id/internet"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/internet">
+        app:layout_constraintTop_toTopOf="@+id/internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_marginStart="5dp"
-            android:elevation="@null"
-            android:translationZ="1dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
-            app:cardMaxElevation="@null">
+            app:cardMaxElevation="@null"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:layout_marginStart="5dp"
+            android:elevation="@null"
+            android:translationZ="1dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -294,34 +290,37 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="5dp"
-            android:elevation="@null"
             app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            app:cardMaxElevation="@null"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:elevation="@null" />
 
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/sms_minute"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/ussdCode"
-        app:layout_constraintTop_toBottomOf="@+id/internet">
+        app:layout_constraintTop_toBottomOf="@+id/internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:elevation="@null"
-            android:translationZ="1dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null">
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:translationZ="1dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -341,37 +340,41 @@
                 android:textStyle="bold|normal" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/shadow"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
-            android:elevation="@null"
-            app:cardBackgroundColor="@color/shadow"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            android:elevation="@null" />
 
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/ussdCode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@id/sms_minute"
         app:layout_constraintLeft_toRightOf="@id/sms_minute"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/sms_minute">
+        app:layout_constraintTop_toTopOf="@id/sms_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@null"
+            app:cardMaxElevation="@null"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginStart="5dp"
             android:elevation="@null"
-            android:translationZ="1dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="@null"
-            app:cardMaxElevation="@null">
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:translationZ="1dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -393,14 +396,14 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="5dp"
-            android:elevation="@null"
             app:cardBackgroundColor="@color/shadow"
             app:cardCornerRadius="20dp"
             app:cardElevation="@null"
-            app:cardMaxElevation="@null" />
+            app:cardMaxElevation="@null"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:elevation="@null" />
 
     </FrameLayout>
 
